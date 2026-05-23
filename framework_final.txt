@@ -1,0 +1,30 @@
+
+-- SELECT 
+--   CAST(AES_DECRYPT(nome,"chave") AS CHAR) nome,
+--   CAST(AES_DECRYPT(email,"chave") AS CHAR) email,
+--   CAST(AES_DECRYPT(telefone,"chave") AS CHAR) telefone
+-- FROM testess;
+
+
+
+
+-- INSERT INTO testess VALUES
+-- (
+-- 0,
+-- AES_ENCRYPT("Breno", "chave"),
+-- AES_ENCRYPT("email@gmail.com", "chave"),
+-- AES_ENCRYPT("27999999999", "chave")
+-- );
+
+-- SELECT 
+--   CAST(AES_DECRYPT(nome,"chave") AS CHAR) nome,
+--   CAST(AES_DECRYPT(email,"chave") AS CHAR) email,
+--   CAST(AES_DECRYPT(telefone,"chave") AS CHAR) telefone
+-- FROM testess WHERE AES_ENCRYPT("Breno","chave" ) = nome;
+
+
+-- admin@gmail.com abc123456
+admin@gmail.com
+abc123456
+         
+

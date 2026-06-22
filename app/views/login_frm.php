@@ -4,7 +4,7 @@
             <div class="card p-4">
 
                 <div class="d-flex align-items-center justify-content-center my-4">
-                    <img src="assets/images/logo_64.png" class="img-fluid me-3">
+                    <img src="assets/images/logo.png" class="img-fluid me-3">
                     <h2><strong><?= APP_NAME ?></strong></h2>
                 </div>
 

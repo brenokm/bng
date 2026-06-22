@@ -20,6 +20,7 @@ class Agent extends BaseController
 
         $id_agent = $_SESSION['user']->id;
         $model = new Agents();
+       
         $results = $model->get_agent_clients($id_agent);
         // printData($results);
 

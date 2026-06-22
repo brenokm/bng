@@ -125,7 +125,7 @@ class Admin extends BaseController
         // LOGO
         $html .= '
     <div style="position:absolute; left:' . $x . 'px; top:' . $y . 'px;">
-        <img src="assets/images/logo_32.png">
+        <img src="assets/images/logo.png">
     </div>';
 
         // TÍTULO

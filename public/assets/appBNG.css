@@ -1,37 +1,96 @@
-/* my custom css */
+/* Reset */
 * {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
     font-family: 'Titillium Web', sans-serif;
 }
+
+/* Fundo */
 body {
-    min-height: 100%;
-    background: radial-gradient(at top, rgb(200, 3, 182) 0%, rgb(0, 15, 61) 100%);
-    background-repeat: no-repeat;
-    background-attachment: fixed;
-    background-size: cover;
+    min-height: 100vh;
+    background-color: #121212;
 }
 
+/* Navbar */
 .bng-navbar {
-    background-color: rgba(0, 0, 0, 0.3);
+    background: rgba(255, 255, 255, 0.08);
+    backdrop-filter: blur(15px);
+    -webkit-backdrop-filter: blur(15px);
+    border-bottom: 1px solid rgba(255, 255, 255, 0.1);
     color: white;
+    padding: 15px 25px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.2);
 }
 
+/* Cards da home */
 .home-option {
-    background-color: white;
     width: 300px;
-    border-radius: 10px;
+    background: rgba(255, 255, 255, 0.12);
+    backdrop-filter: blur(12px);
+    -webkit-backdrop-filter: blur(12px);
+
+    border: 1px solid rgba(255, 255, 255, 0.15);
+    border-radius: 16px;
+
+    padding: 25px;
+
+    color: white;
+
+    transition: all 0.3s ease;
+    box-shadow: 0 10px 25px rgba(0, 0, 0, 0.2);
 }
 
 .home-option:hover {
-    background-color: rgb(221, 165, 213);
+    transform: translateY(-8px);
+    box-shadow: 0 15px 35px rgba(255, 0, 212, 0.3);
+    border-color: rgba(255, 255, 255, 0.3);
 }
 
+/* Links */
 .unlink,
 .unlink:hover {
-    color: black;
+    color: inherit;
     text-decoration: none;
 }
 
+/* Footer */
 .footer {
-    background-color: rgb(17, 14, 19);
+    background: rgba(0, 0, 0, 0.4);
+    backdrop-filter: blur(10px);
+    -webkit-backdrop-filter: blur(10px);
+
     color: white;
+    border-top: 1px solid rgba(255, 255, 255, 0.1);
+
+    padding: 20px;
+}
+
+/* Botões (caso existam) */
+.btn-custom {
+    background: linear-gradient(135deg, #ff00d4, #6a00ff);
+    border: none;
+    color: white;
+    border-radius: 10px;
+    padding: 10px 20px;
+    transition: 0.3s;
+}
+
+.btn-custom:hover {
+    transform: scale(1.05);
+    box-shadow: 0 0 20px rgba(255, 0, 212, 0.5);
+}
+
+/* Scrollbar */
+::-webkit-scrollbar {
+    width: 10px;
+}
+
+::-webkit-scrollbar-track {
+    background: #0a0a23;
+}
+
+::-webkit-scrollbar-thumb {
+    background: linear-gradient(#ff00d4, #6a00ff);
+    border-radius: 10px;
 }
